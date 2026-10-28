@@ -3,7 +3,7 @@ author: Amby
 execute:
   execute_notebooks: "off"
 repository:
-  url: https://github.com/<your-username>/gate-da
+  url: https://github.com/sbmldev/gate-da
 html:
   use_repository_button: true
 parse:
