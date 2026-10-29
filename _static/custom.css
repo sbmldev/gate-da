@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=STIX+Two+Text:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap");
+
+html[data-theme] {
+  --pst-font-family-base: "STIX Two Text", Georgia, "Times New Roman", serif;
+  --pst-font-family-heading: "STIX Two Text", Georgia, "Times New Roman", serif;
+  --pst-font-family-monospace: "Inconsolata", Consolas, Menlo, monospace;
+}
+
+/* Inconsolata runs small, so nudge code up a little */
+div.highlight pre,
+:not(pre) > code {
+  font-size: 1.05em;
+}
+
+.bd-header .navbar-nav .nav-link {
+  font-size: 0.95rem;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+}
+
+/* Light mode */
+html[data-theme="light"] {
+  --pst-color-primary: #3b4cca;
+  --pst-color-secondary: #3b4cca;
+  --pst-color-link: #3b4cca;
+  --pst-color-link-hover: #2b39a3;
+  --pst-color-text-base: #1b1f2a;
+  --pst-color-text-muted: #5a6275;
+  --pst-color-background: #fbfbfd;
+  --pst-color-on-background: #ffffff;
+  --pst-color-surface: #f1f2f8;
+  --pst-color-on-surface: #1b1f2a;
+}
+
+/* Dark mode */
+html[data-theme="dark"] {
+  --pst-color-primary: #4cc9f0;
+  --pst-color-secondary: #4cc9f0;
+  --pst-color-link: #4cc9f0;
+  --pst-color-link-hover: #8fdcf6;
+  --pst-color-text-base: #e6e9f0;
+  --pst-color-text-muted: #9aa3b5;
+  --pst-color-background: #0f1420;
+  --pst-color-on-background: #141a29;
+  --pst-color-surface: #171d2d;
+  --pst-color-on-surface: #e6e9f0;
+}
