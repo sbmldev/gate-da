@@ -9,11 +9,11 @@ Concepts, key formulas, worked examples and previous year questions for each sub
 ```{toctree}
 :maxdepth: 1
 
-probability-statistics/index
-linear-algebra/index
-calculus-optimization/index
-programming-dsa/index
-dbms-warehousing/index
-machine-learning/index
-artificial-intelligence/index
+Probability & Stats <probability-statistics/index>
+Linear Algebra <linear-algebra/index>
+Calculus <calculus-optimization/index>
+Programming & DSA <programming-dsa/index>
+DBMS <dbms-warehousing/index>
+Machine Learning <machine-learning/index>
+AI <artificial-intelligence/index>
 ```

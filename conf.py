@@ -14,6 +14,8 @@ html_title = "GATE DA Notes"
 html_theme_options = {
     "header_links_before_dropdown": 7,
     "show_toc_level": 2,
+    "navbar_persistent": [],
+    "navbar_end": ["search-button", "theme-switcher", "navbar-icon-links"],
     "icon_links": [
         {
             "name": "GitHub",
@@ -22,3 +24,6 @@ html_theme_options = {
         }
     ],
 }
+
+html_static_path = ["_static"]
+html_css_files = ["custom.css"]
