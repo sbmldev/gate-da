@@ -1,0 +1,19 @@
+# Normalization
+
+## Why normalize?
+
+Reduces redundancy and update anomalies.
+
+```{note}
+**Key idea**
+
+A relation is in 3NF if every non-key attribute depends on the key, the whole key, and nothing but the key.
+```
+
+## Example
+
+...
+
+```{dropdown} PYQ: click to show answer
+Answer goes here.
+```
